@@ -1,4 +1,4 @@
-# 📦 Inventory Management System (Flask REST API + CLI)
+# Inventory Management System (Flask REST API + CLI)
 
 A full-stack backend system built with Flask that allows administrators to manage inventory items, integrate external product data, and interact through both REST API endpoints and a CLI tool.
 
