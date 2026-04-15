@@ -2,8 +2,6 @@
 
 A full-stack backend system built with Flask that allows administrators to manage inventory items, integrate external product data, and interact through both REST API endpoints and a CLI tool.
 
-
-
 ##  Features
 
 ###  Inventory Management (CRUD)
@@ -51,3 +49,4 @@ cd inventory-system
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+pip install flask-cors
