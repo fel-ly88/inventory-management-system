@@ -27,25 +27,27 @@ A full-stack backend system built with Flask that allows administrators to manag
 - Fetch external product data from CLI
 
 ###  Testing
-- Unit tests using pytest
-- Covers API endpoints and core logic
-
+- Unit tests using python -m pytest
 
 
 ##  Tech Stack
 
 - Python 3
 - Flask
-- Flask-RESTful / Flask routing
+- Flask-CORS
 - Requests (API calls)
 - Pytest (testing)
-- JSON (data storage)
+- JSON (in-memory data storage)
 
 
 
 ##  Installation
 
 ### 1. Clone Repository
-```bash
 git clone <https://github.com/fel-ly88/inventory-management-system>
 cd inventory-system
+
+###  Create virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
