@@ -45,8 +45,17 @@ A full-stack backend system built with Flask that allows administrators to manag
 git clone <https://github.com/fel-ly88/inventory-management-system>
 cd inventory-system
 
+### How to run the app
+cd cli
+python cli.py
+
 ###  Create virtual environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install flask-cors
+pip install requests
+pip install flask
+pip install pytest
+
+
