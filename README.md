@@ -88,6 +88,7 @@ venv\Scripts\activate
 ### 3. Install Dependencies
 ```bash
 pip install flask flask-cors requests pytest
+pip install -r requirements.txt
 ```
 
 ---
@@ -95,6 +96,7 @@ pip install flask flask-cors requests pytest
 ###  Running the Application
 
 ### Start the Flask Server
+
 ```bash
 cd server
 python app.py
@@ -123,5 +125,3 @@ python -m pytest
 - POST /inventory  
 - PATCH /inventory/<id>  
 - DELETE /inventory/<id>  
-- GET /search  
-- POST /inventory/import  
