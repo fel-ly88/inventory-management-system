@@ -96,7 +96,7 @@ pip install flask flask-cors requests pytest
 
 ### Start the Flask Server
 ```bash
-cd app
+cd server
 python app.py
 ```
 
