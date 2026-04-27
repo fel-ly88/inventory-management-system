@@ -92,7 +92,7 @@ pip install flask flask-cors requests pytest
 
 ---
 
-## 🚀 Running the Application
+###  Running the Application
 
 ### Start the Flask Server
 ```bash
@@ -110,21 +110,8 @@ python cli.py
 
 ---
 
-## 📡 API Endpoints
 
-| Method | Endpoint               | Description                      |
-|--------|-----------------------|----------------------------------|
-| GET    | /inventory            | Get all inventory items          |
-| GET    | /inventory/<id>       | Get item by ID                   |
-| POST   | /inventory            | Create a new item                |
-| PATCH  | /inventory/<id>       | Update an item                   |
-| DELETE | /inventory/<id>       | Delete an item                   |
-| GET    | /search               | Search items (requires params)   |
-| POST   | /inventory/import     | Import from OpenFoodFacts        |
-
----
-
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 python -m pytest
